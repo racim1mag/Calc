@@ -1,0 +1,36 @@
+while True:
+    name = input("What is your name ? : ")
+
+    if len(name) > 3 :
+
+     print(f"ok {name} let's calculate your moyenne")
+
+
+
+    else : 
+
+     print("That's not a valid name")
+
+    break
+print("insert your notes")
+math = input("Math : ")
+physique = input("physique : ")
+science = input("science : ")
+arabe = input("arabe : ")
+hg = input("histoire/geo : ")
+anglais = input("anglais: ")
+francais = input("francais : ")
+philo = input("philo : ")
+sport = input("sport : ")
+print(f"your moyenne is {(int(math)*7 + int(physique)*6 + int(science)*2 + int(arabe)*3 + int(hg)*2 + int(anglais)*2 + int(francais)*2 + int(philo)*2 + int(sport))/29}")
+
+
+
+
+
+
+
+
+
+
+
